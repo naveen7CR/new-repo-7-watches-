@@ -1,0 +1,28 @@
+body {
+    font-family: Arial;
+    background: #0f172a;
+    color: white;
+    text-align: center;
+}
+
+.board {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.column {
+    width: 30%;
+    background: #1e293b;
+    padding: 15px;
+    border-radius: 10px;
+    min-height: 300px;
+}
+
+.task {
+    background: #22c55e;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: grab;
+    border-radius: 5px;
+}
